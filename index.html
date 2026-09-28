@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Knack — Get good at showing up</title>
+    <meta
+      name="description"
+      content="Knack turns your tasks and habits into one daily score, a streak worth protecting, and friends who keep you honest. Free for Android." />
+    <meta name="theme-color" content="#FAFAF9" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0B0B0D" media="(prefers-color-scheme: dark)" />
+    <meta property="og:title" content="Knack — Get good at showing up" />
+    <meta property="og:description" content="Plan your day, score it, keep the streak alive. Free for Android." />
+    <meta property="og:image" content="assets/icon.png" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="apple-touch-icon" href="assets/icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Instrument+Serif:ital@1&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="i-flame" viewBox="0 0 512 512"><path d="M394.23 197.56a300.43 300.43 0 00-53.37-90C301.2 61.65 249.05 32 208 32a16 16 0 00-15.48 20c13.87 53-14.88 97.07-45.31 143.72C122 234.36 96 274.27 96 320c0 88.22 71.78 160 160 160s160-71.78 160-160c0-43.3-7.32-84.49-21.77-122.44zm-105.9 221.13C278 429.69 265.05 432 256 432s-22-2.31-32.33-13.31S208 390.24 208 368c0-25.14 8.82-44.28 17.34-62.78 4.95-10.74 10-21.67 13-33.37a8 8 0 0112.49-4.51A126.48 126.48 0 01275 292c18.17 24 29 52.42 29 76 0 22.24-5.42 39.77-15.67 50.69z"/></symbol><symbol id="i-check" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M416 128L192 384l-96-96"/></symbol><symbol id="i-android" viewBox="0 0 512 512"><path d="M380.91 199l42.47-73.57a8.63 8.63 0 00-3.12-11.76 8.52 8.52 0 00-11.71 3.12l-43 74.52c-32.83-15-69.78-23.35-109.52-23.35s-76.69 8.36-109.52 23.35l-43-74.52a8.6 8.6 0 10-14.88 8.64L131 199C57.8 238.64 8.19 312.77 0 399.55h512c-8.19-86.78-57.8-160.91-131.09-200.55zM138.45 327.65a21.46 21.46 0 1121.46-21.46 21.47 21.47 0 01-21.46 21.46zm235 0A21.46 21.46 0 11395 306.19a21.47 21.47 0 01-21.51 21.46z"/></symbol><symbol id="i-download" viewBox="0 0 512 512"><path d="M336 176h40a40 40 0 0140 40v208a40 40 0 01-40 40H136a40 40 0 01-40-40V216a40 40 0 0140-40h40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M176 272l80 80 80-80M256 48v288"/></symbol><symbol id="i-today" viewBox="0 0 512 512"><path d="M416 64h-16V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 00368 48v16H144V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 00112 48v16H96a64 64 0 00-64 64v12a4 4 0 004 4h440a4 4 0 004-4v-12a64 64 0 00-64-64zM477 176H35a3 3 0 00-3 3v237a64 64 0 0064 64h320a64 64 0 0064-64V179a3 3 0 00-3-3zM224 307.43A28.57 28.57 0 01195.43 336h-70.86A28.57 28.57 0 0196 307.43v-70.86A28.57 28.57 0 01124.57 208h70.86A28.57 28.57 0 01224 236.57z"/></symbol><symbol id="i-leaf" viewBox="0 0 512 512"><path d="M161.35 242a16 16 0 0122.62-.68c73.63 69.36 147.51 111.56 234.45 133.07 11.73-32 12.77-67.22 2.64-101.58-13.44-45.59-44.74-85.31-90.49-114.86-40.84-26.38-81.66-33.25-121.15-39.89-49.82-8.38-96.88-16.3-141.79-63.85-5-5.26-11.81-7.37-18.32-5.66-7.44 2-12.43 7.88-14.82 17.6-5.6 22.75-2 86.51 13.75 153.82 25.29 108.14 65.65 162.86 95.06 189.73 38 34.69 87.62 53.9 136.93 53.9a186 186 0 0027.77-2.04c41.71-6.32 76.43-27.27 96-57.75-89.49-23.28-165.94-67.55-242-139.16a16 16 0 01-.65-22.65zM467.43 384.19c-16.83-2.59-33.13-5.84-49-9.77a157.71 157.71 0 01-12.13 25.68c-.73 1.25-1.5 2.49-2.29 3.71a584.21 584.21 0 0058.56 12 16 16 0 104.87-31.62z"/></symbol><symbol id="i-people" viewBox="0 0 512 512"><path d="M336 256c-20.56 0-40.44-9.18-56-25.84-15.13-16.25-24.37-37.92-26-61-1.74-24.62 5.77-47.26 21.14-63.76S312 80 336 80c23.83 0 45.38 9.06 60.7 25.52 15.47 16.62 23 39.22 21.26 63.63-1.67 23.11-10.9 44.77-26 61C376.44 246.82 356.57 256 336 256zm66-88zM467.83 432H204.18a27.71 27.71 0 01-22-10.67 30.22 30.22 0 01-5.26-25.79c8.42-33.81 29.28-61.85 60.32-81.08C264.79 297.4 299.86 288 336 288c36.85 0 71 9 98.71 26.05 31.11 19.13 52 47.33 60.38 81.55a30.27 30.27 0 01-5.32 25.78A27.68 27.68 0 01467.83 432zM147 260c-35.19 0-66.13-32.72-69-72.93-1.42-20.6 5-39.65 18-53.62 12.86-13.83 31-21.45 51-21.45s38 7.66 50.93 21.57c13.1 14.08 19.5 33.09 18 53.52-2.87 40.2-33.8 72.91-68.93 72.91zM212.66 291.45c-17.59-8.6-40.42-12.9-65.65-12.9-29.46 0-58.07 7.68-80.57 21.62-25.51 15.83-42.67 38.88-49.6 66.71a27.39 27.39 0 004.79 23.36A25.32 25.32 0 0041.72 400h111a8 8 0 007.87-6.57c.11-.63.25-1.26.41-1.88 8.48-34.06 28.35-62.84 57.71-83.82a8 8 0 00-.63-13.39c-1.57-.92-3.37-1.89-5.42-2.89z"/></symbol><symbol id="i-person" viewBox="0 0 512 512"><path d="M332.64 64.58C313.18 43.57 286 32 256 32c-30.16 0-57.43 11.5-76.8 32.38-19.58 21.11-29.12 49.8-26.88 80.78C156.76 206.28 203.27 256 256 256s99.16-49.71 103.67-110.82c2.27-30.7-7.33-59.33-27.03-80.6zM432 480H80a31 31 0 01-24.2-11.13c-6.5-7.77-9.12-18.38-7.18-29.11C57.06 392.94 83.4 353.61 124.8 326c36.78-24.51 83.37-38 131.2-38s94.42 13.5 131.2 38c41.4 27.6 67.74 66.93 76.18 113.75 1.94 10.73-.68 21.34-7.18 29.11A31 31 0 01432 480z"/></symbol><symbol id="i-calendar" viewBox="0 0 512 512"><path d="M480 128a64 64 0 00-64-64h-16V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 00368 48v16H144V48.45c0-8.61-6.62-16-15.23-16.43A16 16 0 00112 48v16H96a64 64 0 00-64 64v12a4 4 0 004 4h440a4 4 0 004-4zM32 416a64 64 0 0064 64h320a64 64 0 0064-64V180a4 4 0 00-4-4H36a4 4 0 00-4 4z"/></symbol><symbol id="i-barbell" viewBox="0 0 512 512"><path d="M467 176a29.94 29.94 0 00-25.32 12.5 2 2 0 01-3.64-1.14v-36.65c0-20.75-16.34-38.21-37.08-38.7A38 38 0 00362 150v82a2 2 0 01-2 2H152a2 2 0 01-2-2v-81.29c0-20.75-16.34-38.21-37.08-38.7A38 38 0 0074 150v37.38a2 2 0 01-3.64 1.14A29.94 29.94 0 0045 176c-16.3.51-29 14.31-29 30.62v98.72c0 16.31 12.74 30.11 29 30.62a29.94 29.94 0 0025.32-12.5 2 2 0 013.68 1.16v36.67C74 382 90.34 399.5 111.08 400A38 38 0 00150 362v-82a2 2 0 012-2h208a2 2 0 012 2v81.29c0 20.75 16.34 38.21 37.08 38.7A38 38 0 00438 362v-37.38a2 2 0 013.64-1.14A29.94 29.94 0 00467 336c16.3-.51 29-14.31 29-30.62v-98.74c0-16.31-12.74-30.11-29-30.64z"/></symbol><symbol id="i-sparkles" viewBox="0 0 512 512"><path d="M208 512a24.84 24.84 0 01-23.34-16l-39.84-103.6a16.06 16.06 0 00-9.19-9.19L32 343.34a25 25 0 010-46.68l103.6-39.84a16.06 16.06 0 009.19-9.19L184.66 144a25 25 0 0146.68 0l39.84 103.6a16.06 16.06 0 009.19 9.19l103 39.63a25.49 25.49 0 0116.63 24.1 24.82 24.82 0 01-16 22.82l-103.6 39.84a16.06 16.06 0 00-9.19 9.19L231.34 496A24.84 24.84 0 01208 512zm66.85-254.84zM88 176a14.67 14.67 0 01-13.69-9.4l-16.86-43.84a7.28 7.28 0 00-4.21-4.21L9.4 101.69a14.67 14.67 0 010-27.38l43.84-16.86a7.31 7.31 0 004.21-4.21L74.16 9.79A15 15 0 0186.23.11a14.67 14.67 0 0115.46 9.29l16.86 43.84a7.31 7.31 0 004.21 4.21l43.84 16.86a14.67 14.67 0 010 27.38l-43.84 16.86a7.28 7.28 0 00-4.21 4.21l-16.86 43.84A14.67 14.67 0 0188 176zM400 256a16 16 0 01-14.93-10.26l-22.84-59.37a8 8 0 00-4.6-4.6l-59.37-22.84a16 16 0 010-29.86l59.37-22.84a8 8 0 004.6-4.6l22.67-58.95a16.45 16.45 0 0113.17-10.57 16 16 0 0116.86 10.15l22.84 59.37a8 8 0 004.6 4.6l59.37 22.84a16 16 0 010 29.86l-59.37 22.84a8 8 0 00-4.6 4.6l-22.84 59.37A16 16 0 01400 256z"/></symbol><symbol id="i-book" viewBox="0 0 512 512"><path d="M202.24 74C166.11 56.75 115.61 48.3 48 48a31.36 31.36 0 00-17.92 5.33A32 32 0 0016 79.9V366c0 19.34 13.76 33.93 32 33.93 71.07 0 142.36 6.64 185.06 47a4.11 4.11 0 006.94-3V106.82a15.89 15.89 0 00-5.46-12A143 143 0 00202.24 74zM481.92 53.3A31.33 31.33 0 00464 48c-67.61.3-118.11 8.71-154.24 26a143.31 143.31 0 00-32.31 20.78 15.93 15.93 0 00-5.45 12v337.13a3.93 3.93 0 006.68 2.81c25.67-25.5 70.72-46.82 185.36-46.81a32 32 0 0032-32v-288a32 32 0 00-14.12-26.61z"/></symbol><symbol id="i-trophy" viewBox="0 0 512 512"><path d="M464 80h-60.1a4 4 0 01-4-4V63.92a32 32 0 00-32-31.92l-223.79.26a32 32 0 00-31.94 31.93V76a4 4 0 01-4 4H48a16 16 0 00-16 16v16c0 54.53 30 112.45 76.52 125.35a7.82 7.82 0 015.55 5.9c5.77 26.89 23.52 52.5 51.41 73.61 20.91 15.83 45.85 27.5 68.27 32.48a8 8 0 016.25 7.8V444a4 4 0 01-4 4h-59.55c-8.61 0-16 6.62-16.43 15.23A16 16 0 00176 480h159.55c8.61 0 16-6.62 16.43-15.23A16 16 0 00336 448h-60a4 4 0 01-4-4v-86.86a8 8 0 016.25-7.8c22.42-5 47.36-16.65 68.27-32.48 27.89-21.11 45.64-46.72 51.41-73.61a7.82 7.82 0 015.55-5.9C450 224.45 480 166.53 480 112V96a16 16 0 00-16-16zM112 198.22a4 4 0 01-6 3.45c-10.26-6.11-17.75-15.37-22.14-21.89-11.91-17.69-19-40.67-19.79-63.63a4 4 0 014-4.15h40a4 4 0 014 4c-.02 27.45-.07 58.87-.07 82.22zm316.13-18.44c-4.39 6.52-11.87 15.78-22.13 21.89a4 4 0 01-6-3.46c0-26.51 0-56.63-.05-82.21a4 4 0 014-4h40a4 4 0 014 4.15c-.79 22.96-7.9 45.94-19.81 63.63z"/></symbol><symbol id="i-offline" viewBox="0 0 512 512"><path d="M93.72 183.25C49.49 198.05 16 233.1 16 288c0 66 54 112 120 112h184.37M467.82 377.74C485.24 363.3 496 341.61 496 312c0-59.82-53-85.76-96-88-8.89-89.54-71-144-144-144-26.16 0-48.79 6.93-67.6 18.14" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M448 448L64 64"/></symbol><symbol id="i-moon" viewBox="0 0 512 512"><path d="M264 480A232 232 0 0132 248c0-94 54-178.28 137.61-214.67a16 16 0 0121.06 21.06C181.07 76.43 176 104.66 176 136c0 110.28 89.72 200 200 200 31.34 0 59.57-5.07 81.61-14.67a16 16 0 0121.06 21.06C442.28 426 358 480 264 480z"/></symbol><symbol id="i-chevron" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M112 184l144 144 144-144"/></symbol><symbol id="i-lock" viewBox="0 0 512 512"><path d="M368 192h-16v-80a96 96 0 10-192 0v80h-16a64.07 64.07 0 00-64 64v176a64.07 64.07 0 0064 64h224a64.07 64.07 0 0064-64V256a64.07 64.07 0 00-64-64zm-48 0H192v-80a64 64 0 11128 0z"/></symbol><symbol id="i-arrow" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></symbol></svg>
+
+    <!-- ─── Nav ─────────────────────────────────────────────────────────── -->
+    <header class="nav" id="nav">
+      <div class="container nav__inner">
+        <a href="#top" class="brand" aria-label="Knack home">
+          <span class="mark"><svg class="i"><use href="#i-flame" /></svg></span>
+          <span class="brand__name">Knack</span>
+        </a>
+        <nav class="nav__links" aria-label="Sections">
+          <a href="#how">How it works</a>
+          <a href="#features">Features</a>
+          <a href="#friends">Friends</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+        <a class="btn btn--primary btn--sm" data-download href="https://github.com/sidonweb/knack-mobile/releases/download/v1.1.0/knack-v1.1.0.apk">
+          <svg class="i"><use href="#i-download" /></svg><span>Download</span>
+        </a>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- ─── Hero ─────────────────────────────────────────────────────── -->
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__copy">
+            <p class="pill reveal"><span class="dot"></span> Free for Android · No ads</p>
+            <h1 class="display reveal">Get good at <em>showing up.</em></h1>
+            <p class="lede reveal">
+              Knack turns your tasks and habits into one daily score. Hit 60 and the day counts. String days together and
+              you’ve got a streak worth protecting, with friends watching it.
+            </p>
+            <div class="hero__ctas reveal">
+              <a class="btn btn--primary btn--lg" data-download href="https://github.com/sidonweb/knack-mobile/releases/download/v1.1.0/knack-v1.1.0.apk">
+                <svg class="i"><use href="#i-android" /></svg><span>Download for Android</span>
+              </a>
+              <a class="btn btn--ghost btn--lg" href="#how"><span>See how it works</span></a>
+            </div>
+            <div class="qr-card reveal" aria-hidden="true">
+              <div class="qr" id="qr-hero"></div>
+              <div>
+                <p class="qr-card__title">On your computer?</p>
+                <p class="qr-card__text">Scan with your phone’s camera to download the app.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Today screen -->
+          <div class="hero__demo reveal">
+            <p class="demo-hint" id="demo-hint">
+              <span>Try it. Tap a task</span>
+              <svg viewBox="0 0 60 40" aria-hidden="true"><path d="M4 6 C 28 4, 44 12, 50 32" /><path d="M42 27 L 50 33 L 54 24" /></svg>
+            </p>
+            <div class="phone" id="demo">
+              <div class="phone__screen">
+                <div class="statusbar"><span>9:41</span><span class="statusbar__icons"><i></i><i></i><i></i></span></div>
+                <div class="today__head">
+                  <div>
+                    <p class="overline">Good morning, Alex</p>
+                    <p class="today__date">Monday, Sep 28</p>
+                  </div>
+                  <div class="streak" id="streak" aria-live="polite">
+                    <svg class="i"><use href="#i-flame" /></svg><span id="streak-count">12</span>
+                  </div>
+                </div>
+
+                <div class="scorecard">
+                  <div class="ring" id="ring">
+                    <svg viewBox="0 0 100 100" aria-hidden="true">
+                      <circle class="ring__track" cx="50" cy="50" r="42" />
+                      <circle class="ring__fill" id="ring-fill" cx="50" cy="50" r="42" />
+                      <line class="ring__tick" x1="50" y1="3" x2="50" y2="13" transform="rotate(216 50 50)" />
+                    </svg>
+                    <div class="ring__label"><span id="score">0</span><small>score</small></div>
+                  </div>
+                  <div class="scorecard__meta">
+                    <p class="scorecard__title" id="score-title">60 keeps your streak</p>
+                    <p class="scorecard__sub" id="score-sub">5 left today</p>
+                    <div class="xpbar"><span id="xp-fill"></span></div>
+                    <p class="scorecard__xp"><span id="xp">1,240</span> XP · Level 14</p>
+                  </div>
+                </div>
+
+                <p class="overline today__label">Habits</p>
+                <div class="habits" id="habits"></div>
+
+                <p class="overline today__label">Plan</p>
+                <ul class="tasks" id="tasks"></ul>
+
+                <div class="tabbar" aria-hidden="true">
+                  <span class="tabbar__item is-active"><svg class="i"><use href="#i-today" /></svg>Today</span>
+                  <span class="tabbar__item"><svg class="i"><use href="#i-leaf" /></svg></span>
+                  <span class="tabbar__item"><svg class="i"><use href="#i-people" /></svg></span>
+                  <span class="tabbar__item"><svg class="i"><use href="#i-person" /></svg></span>
+                </div>
+
+                <div class="capsules" id="capsules" aria-live="polite"></div>
+                <canvas class="confetti" id="confetti"></canvas>
+              </div>
+            </div>
+            <button class="demo-reset" id="demo-reset" type="button" hidden>Reset the day</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── Facts strip ──────────────────────────────────────────────── -->
+      <section class="strip" aria-label="At a glance">
+        <div class="marquee">
+          <div class="marquee__track">
+            <span>Daily score</span><i></i><span>Streaks</span><i></i><span>Rest days</span><i></i><span>Habits</span><i></i>
+            <span>XP &amp; levels</span><i></i><span>Achievements</span><i></i><span>Friends</span><i></i><span>Challenges</span><i></i>
+            <span>Works offline</span><i></i><span>Sign in with Google</span><i></i>
+            <span aria-hidden="true">Daily score</span><i></i><span aria-hidden="true">Streaks</span><i></i><span aria-hidden="true">Rest days</span><i></i><span aria-hidden="true">Habits</span><i></i>
+            <span aria-hidden="true">XP &amp; levels</span><i></i><span aria-hidden="true">Achievements</span><i></i><span aria-hidden="true">Friends</span><i></i><span aria-hidden="true">Challenges</span><i></i>
+            <span aria-hidden="true">Works offline</span><i></i><span aria-hidden="true">Sign in with Google</span><i></i>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── How it works ─────────────────────────────────────────────── -->
+      <section class="section" id="how">
+        <div class="container">
+          <div class="section__head reveal">
+            <p class="eyebrow">How it works</p>
+            <h2 class="h2">One day at a time. <em>Literally.</em></h2>
+            <p class="section__lede">No complicated systems. A simple loop you run every day, and it gets easier the longer you keep it going.</p>
+          </div>
+          <ol class="steps">
+            <li class="step reveal">
+              <span class="step__num">01</span>
+              <h3>Plan your day</h3>
+              <p>Add tasks with a priority and set up habits. One important thing outweighs three small ones.</p>
+              <div class="prio"><span class="flag flag--high">High ×4</span><span class="flag flag--med">Medium ×3</span><span class="flag flag--none">None ×2</span><span class="flag flag--low">Low ×1</span></div>
+            </li>
+            <li class="step reveal">
+              <span class="step__num">02</span>
+              <h3>Check it off</h3>
+              <p>Every tap moves your score, instantly, even offline. It feels good on purpose.</p>
+              <div><div class="mini-check"><span class="cb is-done"><svg class="i"><use href="#i-check" /></svg></span><span class="mini-check__text">Morning run</span><span class="mini-xp">+15 XP</span></div></div>
+            </li>
+            <li class="step reveal">
+              <span class="step__num">03</span>
+              <h3>Score the day</h3>
+              <p>Your day gets a score out of 100. Reach <strong>60</strong> and it counts toward your streak. Hit 100 for a perfect day.</p>
+              <div class="mini-score"><span class="mini-score__bar"><span style="width: 78%"></span><i style="left: 60%"></i></span><span class="mini-score__num">78</span></div>
+            </li>
+            <li class="step reveal">
+              <span class="step__num">04</span>
+              <h3>Keep the streak</h3>
+              <p>Life happens. Plan up to two rest days a week and your streak bridges them instead of breaking.</p>
+              <div class="mini-week">
+                <span class="d d--on">M</span><span class="d d--on">T</span><span class="d d--on">W</span><span class="d d--rest">T</span><span class="d d--on">F</span><span class="d d--on">S</span><span class="d d--today">S</span>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- ─── Features bento ───────────────────────────────────────────── -->
+      <section class="section section--tight" id="features">
+        <div class="container">
+          <div class="section__head reveal">
+            <p class="eyebrow">Features</p>
+            <h2 class="h2">Small wins, <em>loudly</em> celebrated.</h2>
+            <p class="section__lede">Everything in Knack exists to make the next day a little easier to show up for.</p>
+          </div>
+
+          <div class="bento">
+            <article class="card card--calendar reveal">
+              <div class="card__copy">
+                <p class="card__kicker"><svg class="i"><use href="#i-calendar" /></svg> Consistency calendar</p>
+                <h3>Proof you showed up.</h3>
+                <p>Six months at a glance. Every day that counted glows ember, and rest days show in blue. Tap any day to see its score.</p>
+              </div>
+              <div class="calendar" id="calendar" aria-label="Example consistency calendar"></div>
+              <div class="legend"><span><i class="lg lg--off"></i>Missed</span><span><i class="lg lg--on"></i>Counted</span><span><i class="lg lg--rest"></i>Rest day</span></div>
+            </article>
+
+            <article class="card card--streak reveal">
+              <p class="card__kicker"><svg class="i"><use href="#i-flame" /></svg> Streaks</p>
+              <div class="bigstreak">
+                <svg class="i bigstreak__flame"><use href="#i-flame" /></svg>
+                <span class="bigstreak__num">47</span>
+              </div>
+              <h3>A streak you won’t want to break.</h3>
+              <p>Milestones at 3, 7, 30, 100 and 365 days. The flame breathes while it’s alive.</p>
+            </article>
+
+            <article class="card card--habit reveal">
+              <p class="card__kicker"><svg class="i"><use href="#i-leaf" /></svg> Habits</p>
+              <h3>Habits with a memory.</h3>
+              <p>Daily or weekly, with targets like “8 glasses”. Each habit tracks its own streak, best run and 30-day rate.</p>
+              <div class="habitcard">
+                <div class="habitcard__row">
+                  <span class="habit-ic habit-ic--sky"><svg class="i"><use href="#i-barbell" /></svg></span>
+                  <div><p class="habitcard__name">Workout</p><p class="habitcard__meta">23-day streak · 87% in 30 days</p></div>
+                </div>
+                <div class="heatmap" id="heatmap"></div>
+              </div>
+            </article>
+
+            <article class="card card--xp reveal">
+              <p class="card__kicker"><svg class="i"><use href="#i-sparkles" /></svg> XP &amp; levels</p>
+              <h3>Level up, for real.</h3>
+              <p>Every check-off earns XP, and perfect days earn a bonus. Watch the ring fill toward your next level.</p>
+              <div class="level">
+                <div class="level__ring"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="42" /><circle cx="50" cy="50" r="42" /></svg><span>14</span></div>
+                <div class="level__rows">
+                  <p><span>Task done</span><b>+10</b></p>
+                  <p><span>Habit done</span><b>+15</b></p>
+                  <p><span>Perfect day</span><b>+25</b></p>
+                </div>
+              </div>
+            </article>
+
+            <article class="card card--achievements reveal">
+              <p class="card__kicker"><svg class="i"><use href="#i-trophy" /></svg> Achievements</p>
+              <h3>Badges worth earning.</h3>
+              <p>Milestone ladders for streaks, perfect weeks, 90%+ months, reading days and more, each with how rare it is.</p>
+              <div class="medals">
+                <span class="medal medal--ember"><svg class="i"><use href="#i-flame" /></svg><small>30</small></span>
+                <span class="medal medal--mint"><svg class="i"><use href="#i-sparkles" /></svg><small>Wk</small></span>
+                <span class="medal medal--iris"><svg class="i"><use href="#i-book" /></svg><small>50</small></span>
+                <span class="medal medal--amber"><svg class="i"><use href="#i-trophy" /></svg><small>90%</small></span>
+              </div>
+            </article>
+
+            <article class="card card--offline reveal">
+              <p class="card__kicker"><svg class="i"><use href="#i-offline" /></svg> Offline-first</p>
+              <h3>No signal? Still counts.</h3>
+              <p>Everything works on a plane or in the basement gym. Knack syncs quietly when you’re back online.</p>
+            </article>
+
+            <article class="card card--rest reveal">
+              <p class="card__kicker"><svg class="i"><use href="#i-moon" /></svg> Rest days</p>
+              <h3>Rest without the guilt.</h3>
+              <p>Plan up to two a week, up to two weeks ahead. Your streak waits for you.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── Friends ──────────────────────────────────────────────────── -->
+      <section class="section section--dark" id="friends">
+        <div class="container friends">
+          <div class="friends__copy reveal">
+            <p class="eyebrow eyebrow--light">Friends</p>
+            <h2 class="h2">Better with friends. <em>Scarier, too.</em></h2>
+            <p class="section__lede">Follow the people who keep you honest. See their closed-out days, cheer their streaks, and start a challenge when things get competitive.</p>
+            <ul class="ticks">
+              <li><svg class="i"><use href="#i-check" /></svg> A feed of real progress: perfect days, milestones, unlocks</li>
+              <li><svg class="i"><use href="#i-check" /></svg> Cheer with 🔥, or hold for 👏 💪 🙌</li>
+              <li><svg class="i"><use href="#i-check" /></svg> Challenges with a live leaderboard</li>
+              <li><svg class="i"><use href="#i-check" /></svg> Private account and activity controls. You decide who sees what.</li>
+            </ul>
+          </div>
+
+          <div class="friends__visual reveal">
+            <div class="feed">
+              <div class="feed__item">
+                <span class="av av--1">S</span>
+                <div class="feed__body">
+                  <p><b>Sam</b> had a perfect day <span class="tag tag--mint">100</span></p>
+                  <p class="feed__meta">2h ago</p>
+                  <div class="reacts"><span>🔥 4</span><span>👏 2</span></div>
+                </div>
+              </div>
+              <div class="feed__item">
+                <span class="av av--2">J</span>
+                <div class="feed__body">
+                  <p><b>Jordan</b> hit a <span class="tag tag--ember"><svg class="i"><use href="#i-flame" /></svg>30</span> day streak</p>
+                  <p class="feed__meta">5h ago</p>
+                  <div class="reacts"><span>💪 6</span><span>🙌 3</span></div>
+                </div>
+              </div>
+              <div class="feed__item">
+                <span class="av av--3">P</span>
+                <div class="feed__body">
+                  <p><b>Priya</b> unlocked <b>Bookworm</b></p>
+                  <p class="feed__meta">Yesterday</p>
+                  <div class="reacts"><span>🔥 9</span></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="challenge">
+              <div class="challenge__head">
+                <p class="challenge__title"><svg class="i"><use href="#i-trophy" /></svg> 30 days of reading</p>
+                <p class="challenge__meta">Day 18 of 30</p>
+              </div>
+              <ol class="board">
+                <li><span class="board__rank">1</span><span class="av av--2 av--sm">J</span><span class="board__name">Jordan</span><span class="board__score">17</span></li>
+                <li class="is-you"><span class="board__rank">2</span><span class="av av--4 av--sm">A</span><span class="board__name">You</span><span class="board__score">16</span></li>
+                <li><span class="board__rank">3</span><span class="av av--1 av--sm">S</span><span class="board__name">Sam</span><span class="board__score">12</span></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── Download ─────────────────────────────────────────────────── -->
+      <section class="section" id="download">
+        <div class="container">
+          <div class="section__head reveal">
+            <p class="eyebrow">Download</p>
+            <h2 class="h2">Up and running in <em>a minute.</em></h2>
+            <p class="section__lede">Knack is installed straight from its APK file for now. Here’s all it takes.</p>
+          </div>
+          <div class="install">
+            <ol class="install__steps">
+              <li class="reveal">
+                <span class="install__n">1</span>
+                <div><h3>Download the APK</h3><p>Tap the button below on your Android phone, or scan the QR code from your computer.</p></div>
+              </li>
+              <li class="reveal">
+                <span class="install__n">2</span>
+                <div><h3>Allow the install</h3><p>Android asks before installing apps from outside the Play Store. Tap <b>Settings</b>, turn on <b>Allow from this source</b>, then go back.</p></div>
+              </li>
+              <li class="reveal">
+                <span class="install__n">3</span>
+                <div><h3>Open Knack and sign in</h3><p>Continue with Google or use your email. Plan today, and your streak starts tonight.</p></div>
+              </li>
+            </ol>
+            <div class="install__card reveal">
+              <div class="qr qr--lg" id="qr-download" aria-label="QR code to download the Knack APK" role="img"></div>
+              <a class="btn btn--primary btn--lg btn--block" data-download href="https://github.com/sidonweb/knack-mobile/releases/download/v1.1.0/knack-v1.1.0.apk">
+                <svg class="i"><use href="#i-android" /></svg><span>Download for Android</span>
+              </a>
+              <p class="install__note">Free · No ads · Updates on <a href="https://github.com/sidonweb/knack-mobile/releases">GitHub</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── FAQ ──────────────────────────────────────────────────────── -->
+      <section class="section section--tight" id="faq">
+        <div class="container faq">
+          <div class="section__head reveal">
+            <p class="eyebrow">FAQ</p>
+            <h2 class="h2">Questions, <em>answered.</em></h2>
+          </div>
+          <div class="faq__list">
+            <details class="reveal">
+              <summary>Is Knack free?<svg class="i"><use href="#i-chevron" /></svg></summary>
+              <p>Yes. No ads, no subscription, no premium tier.</p>
+            </details>
+            <details class="reveal">
+              <summary>Why an APK instead of the Play Store?<svg class="i"><use href="#i-chevron" /></svg></summary>
+              <p>Knack is new and shared with friends first. Installing the APK takes about a minute (see the steps above), and new versions are posted on GitHub.</p>
+            </details>
+            <details class="reveal">
+              <summary>Is there an iPhone version?<svg class="i"><use href="#i-chevron" /></svg></summary>
+              <p>Not yet. Knack is Android-only for now.</p>
+            </details>
+            <details class="reveal">
+              <summary>How is the daily score worked out?<svg class="i"><use href="#i-chevron" /></svg></summary>
+              <p>It’s the share of what you planned that got done, weighted by priority: High counts 4, Medium 3, None 2 and Low 1. Habits count too. A score of 60 or more keeps your streak, and 100 is a perfect day. Carrying a task to tomorrow never raises today’s score.</p>
+            </details>
+            <details class="reveal">
+              <summary>What happens if I miss a day?<svg class="i"><use href="#i-chevron" /></svg></summary>
+              <p>A day under 60 ends the streak, so plan ahead. You can mark up to two rest days a week, up to two weeks in advance, and they bridge your streak instead of breaking it.</p>
+            </details>
+            <details class="reveal">
+              <summary>Does it work offline?<svg class="i"><use href="#i-chevron" /></svg></summary>
+              <p>Yes. Tasks, habits and check-ins save on your phone first and sync when you’re back online. Your score updates instantly either way.</p>
+            </details>
+            <details class="reveal">
+              <summary>Who can see my progress?<svg class="i"><use href="#i-chevron" /></svg></summary>
+              <p>Your name, photo, level and streak are visible so friends can find you. Make your account private to approve followers, turn off <b>Share activity</b> to keep your days out of feeds, or hide any single post.</p>
+            </details>
+            <details class="reveal">
+              <summary>Can I delete my account?<svg class="i"><use href="#i-chevron" /></svg></summary>
+              <p>Anytime. Go to Settings, then Delete account, and everything is removed straight away.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── Final CTA ────────────────────────────────────────────────── -->
+      <section class="section section--tight">
+        <div class="container">
+          <div class="finale reveal">
+            <span class="mark mark--xl"><svg class="i"><use href="#i-flame" /></svg></span>
+            <h2 class="finale__title">Your streak starts <em>today.</em></h2>
+            <p class="finale__text">Day one is the hardest. Knack makes day two easier.</p>
+            <a class="btn btn--light btn--lg" data-download href="https://github.com/sidonweb/knack-mobile/releases/download/v1.1.0/knack-v1.1.0.apk">
+              <svg class="i"><use href="#i-android" /></svg><span>Download for Android</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <a href="#top" class="brand" aria-label="Knack home">
+          <span class="mark"><svg class="i"><use href="#i-flame" /></svg></span>
+          <span class="brand__name">Knack</span>
+        </a>
+        <nav class="footer__links" aria-label="Footer">
+          <a href="#how">How it works</a>
+          <a href="#features">Features</a>
+          <a href="#download">Download</a>
+          <a href="#faq">FAQ</a>
+          <a href="https://github.com/sidonweb/knack-mobile/releases">Releases</a>
+        </nav>
+        <p class="footer__copy">© <span id="year">2026</span> Knack. Made for people who show up.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js" defer></script>
+    <script src="main.js" defer></script>
+  </body>
+</html>
